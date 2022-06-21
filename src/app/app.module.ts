@@ -14,6 +14,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { NatureComponent } from './nature/nature.component';
 import { FoodComponent } from './food/food.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FoodComponent } from './food/food.component';
     WeddingComponent,
     NatureComponent,
     FoodComponent,
+    AboutUsComponent,
     
 
   ],
