@@ -2,7 +2,18 @@
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
-.nav-bg{
-    background:linear-gradient(to right, #BF953F,  #FBF5B7, #FCF6BA,#AA771C);
+body{
+    --navbar-scroll: transparent; 
+    --navbar-scroll-text: white;
+    --navbar-scroll-shadow: none;
+}
+.navbar {
+    background-color: var(--navbar-scroll);
+    transition: background-color 1s ease;
+    color: var(--navbar-scroll-text);
+    -webkit-box-shadow: var(--navbar-scroll-shadow);
+    box-shadow: var(--navbar-scroll-shadow);
 }

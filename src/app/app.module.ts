@@ -11,6 +11,9 @@ import { HeroComponent } from './hero/hero.component';
 import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { WeddingComponent } from './wedding/wedding.component';
+import { NatureComponent } from './nature/nature.component';
+import { FoodComponent } from './food/food.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { ReviewsComponent } from './reviews/reviews.component';
     HeroComponent,
     FooterComponent,
     ReviewsComponent,
+    WeddingComponent,
+    NatureComponent,
+    FoodComponent,
     
 
   ],
