@@ -1,16 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CardsComponent } from './cards/cards.component';
 import { HeroComponent } from './hero/hero.component';
-import { ReviewsComponent } from './reviews/reviews.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FoodComponent } from './food/food.component';
+import { NatureComponent } from './nature/nature.component';
 
-const routes: Routes = [{
+const routes: Routes = [
+  {
+    path: "", component: HeroComponent
+  }, 
+  {
   path: "about", component: AboutUsComponent
-}, {
+}, 
+{
   path: "wedding", component: WeddingComponent
+},
+{
+  path: "food", component: FoodComponent
+},
+{
+  path: "nature", component: NatureComponent 
 }
+
 ];
 
 @NgModule({
@@ -18,3 +30,4 @@ const routes: Routes = [{
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+ 
