@@ -1,69 +1,11 @@
 .banner {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: url(../../assets/images/wedding/wed2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/images/about/team.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section:nth-child(2n+1) {
-  position: relative;
-  height: auto;
-  background-color: #fafafa;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
 
-section:nth-child(2n+2) {
-  position: relative;
-  height: auto;
-  background-color: #fafafa;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.imgBx {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  min-width: 50%;
-  height: 100vh;
-  background-color: #777;
-}
-
-.imgBx img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  max-width: 500px;
-}
-
-section:nth-child(2n+1) .content {
-  padding: 100px 0 100px 100px;
-  text-align: right;
-}
-
-section:nth-child(2n+2) .content {
-  padding: 100px 100px 100px 0;
-  text-align: left;
-}
-
-.content h2 {
-  margin: 0 0 20px;
-  font-size: 60px;
-}
-
-.content p {
-  color: #777;
-  font-size: 20px;
-}
 /*# sourceMappingURL=about-us.component.css.map */

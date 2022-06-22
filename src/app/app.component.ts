@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CF-FE16-team5';
+
+  onActivate($event:any) {
+    window.scroll(0,0);
+  }
 }
