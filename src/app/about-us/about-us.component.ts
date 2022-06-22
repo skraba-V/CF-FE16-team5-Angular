@@ -8,7 +8,32 @@ import { Component, OnInit } from '@angular/core';
 export class AboutUsComponent implements OnInit {
 
   people: Array<{ fname: string, lname: string, xquote: string, xhobbies: string, xlanguage: string, byear: number, job: string, img1: string, img2: string}> = [
-
+    {
+      fname: "Gabriel",
+      lname: "Skraba",
+      byear: 98,
+      xhobbies: "music, " ,
+      xlanguage:"Croatian, English, German",
+      xquote: "just rock n roll",
+      job: "Frontend Development, 3D modeling",
+      img1: "/assets/images/about/gabi1.jpg",
+      img2: "/assets/images/about/gabi.png",
+     
+  
+    },
+    {
+      fname: "Tamara",
+      lname: "Zolnajic",
+      byear: 94,
+      xhobbies: "reading, music production, traveling" ,
+      xlanguage:"Hungarian, Serbian, English, German",
+      xquote: "it matters not what someone is born, but what thex grow to be.",
+      job: "Frontend Development, c++",
+      img1: "/assets/images/about/tamara1.jpg",
+      img2: "/assets/images/about/tamara.JPG",
+     
+  
+    },
     {
       fname: "Andrea",
       lname: "Bicskei",
@@ -35,32 +60,8 @@ export class AboutUsComponent implements OnInit {
      
   
     },
-    {
-      fname: "Gabriel",
-      lname: "Skraba",
-      byear: 98,
-      xhobbies: "music, " ,
-      xlanguage:"Croatian, English, German",
-      xquote: "just rock n roll",
-      job: "Frontend Development, 3D modeling",
-      img1: "/assets/images/about/gabi1.jpg",
-      img2: "/assets/images/about/gabi.png",
-     
-  
-    },
-    {
-      fname: "Tamara",
-      lname: "Zolnajic",
-      byear: 94,
-      xhobbies: "reading, music production, traveling" ,
-      xlanguage:"Hungarian, Serbian, English, German",
-      xquote: "it matters not what someone is born, but what thex grow to be.",
-      job: "Frontend Development, c++",
-      img1: "/assets/images/about/tamara1.jpg",
-      img2: "/assets/images/about/tamara.JPG",
-     
-  
-    }
+    
+    
     
   
    ];
