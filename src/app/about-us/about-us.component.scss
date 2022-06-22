@@ -5,7 +5,7 @@
 }
 
 .about-cont {
-    padding-top: 6%;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     letter-spacing: 4px;
     font-family: 'Montserrat', sans-serif;
     margin:2%;
-    font-size: 1.7em;
+    font-size: 1.5rem;
     padding-bottom: 3%;
 }
 // .banner {
@@ -87,29 +87,32 @@
     height: 100%;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
 .card .details .content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: column;
 }
 
 .card .details .content h2 {
-    text-align: center;
+    padding-bottom: 50px;
     font-weight: 500;
     line-height: 1em;
+    text-align: center;
 }
 
 .card .details .content .social-icons {
+    padding-top: 15%;
     position: relative;
     display: flex;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card .details .content .social-icons a {
@@ -123,8 +126,10 @@
     margin: 5px;
     font-size: 18px;
     transition: 0.9s;
+    margin-right: 8%;
+    
 }
 
 .card .details .content .social-icons a:hover {
-    color: #e21212
+    color: #AA771C
 }
