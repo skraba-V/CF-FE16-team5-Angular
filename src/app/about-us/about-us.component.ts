@@ -10,12 +10,12 @@ export class AboutUsComponent implements OnInit {
   people: Array<{ fname: string, lname: string, xquote: string, xhobbies: string, xlanguage: string, byear: number, job: string, img1: string, img2: string}> = [
     {
       fname: "Gabriel",
-      lname: "Skraba",
+      lname: "Skraba ",
       byear: 98,
-      xhobbies: "music, " ,
+      xhobbies: " music " ,
       xlanguage:"Croatian, English, German",
-      xquote: "just rock n roll",
-      job: "Frontend Development, 3D modeling",
+      xquote: " 'Just rock n roll'",
+      job: "Frontend Development, 3D modelling",
       img1: "/assets/images/about/gabi1.jpg",
       img2: "/assets/images/about/gabi.png",
      
@@ -23,7 +23,7 @@ export class AboutUsComponent implements OnInit {
     },
     {
       fname: "Tamara",
-      lname: "Zolnajic",
+      lname: "Zolnajic ",
       byear: 94,
       xhobbies: "reading, music production, traveling" ,
       xlanguage:"Hungarian, Serbian, English, German",
@@ -36,12 +36,12 @@ export class AboutUsComponent implements OnInit {
     },
     {
       fname: "Andrea",
-      lname: "Bicskei",
+      lname: "Bicskei ",
       byear: 94,
-      xhobbies: "reading, music production, traveling" ,
-      xlanguage:"Hungarian, Serbian, English, German",
-      xquote: "it matters not what someone is born, but what thex grow to be.",
-      job: "Frontend Development, c++ , Unreal engine",
+      xhobbies: " reading, music production, traveling " ,
+      xlanguage:" Hungarian, Serbian, English, German ",
+      xquote: " 'It matters not what someone is born, but what they grown to be.' ",
+      job: "Frontend Development, c++ , Unreal engine, Unity ",
       img1: "/assets/images/about/andrea1.jpg",
       img2: "/assets/images/about/andrea.jpg",
      
@@ -49,12 +49,12 @@ export class AboutUsComponent implements OnInit {
     },
     {
       fname: "Branko",
-      lname: "Babic",
+      lname: "Babic ",
       byear: 91,
-      xhobbies: "coding, sports, traveling" ,
-      xlanguage:"Slovenian, Serbian, English, German",
-      xquote: "GOD will never give u more than u can handle",
-      job: "Frontend Development, AutoCAD 3D",
+      xhobbies: " coding, sports, traveling " ,
+      xlanguage:" Slovenian, Serbian, English, German ",
+      xquote: " 'GOD will never give u more than u can handle' ",
+      job: " Frontend Development, AutoCAD 3D ",
       img1: "/assets/images/about/bati1.jpg",
       img2: "/assets/images/about/Bati.jpg",
      
