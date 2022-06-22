@@ -5,15 +5,25 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-body{
-    --navbar-scroll: transparent; 
+
+body {
+    --navbar-scroll: transparent;
     --navbar-scroll-text: white;
     --navbar-scroll-shadow: none;
 }
+
 .navbar {
     background-color: var(--navbar-scroll);
     transition: background-color 1s ease;
     color: var(--navbar-scroll-text);
     -webkit-box-shadow: var(--navbar-scroll-shadow);
     box-shadow: var(--navbar-scroll-shadow);
+}
+
+.dropdown-item {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
