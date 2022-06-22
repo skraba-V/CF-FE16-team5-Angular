@@ -10,7 +10,7 @@ export class AboutUsComponent implements OnInit {
   people: Array<{ fname: string, lname: string, xquote: string, xhobbies: string, xlanguage: string, byear: number, job: string, img1: string, img2: string}> = [
     {
       fname: "Gabriel",
-      lname: "Skraba",
+      lname: "Skraba ",
       byear: 98,
       xhobbies: "music, coding" ,
       xlanguage:"Croatian, English, German",
@@ -36,7 +36,7 @@ export class AboutUsComponent implements OnInit {
     },
     {
       fname: "Andrea",
-      lname: "Bicskei",
+      lname: "Bicskei ",
       byear: 94,
       xhobbies: "reading, music production, traveling" ,
       xlanguage:"Hungarian, Serbian, English, German",
@@ -49,7 +49,7 @@ export class AboutUsComponent implements OnInit {
     },
     {
       fname: "Branko",
-      lname: "Babic",
+      lname: "Babic ",
       byear: 91,
       xhobbies: "coding, sports, traveling" ,
       xlanguage:"Slovenian, Serbian, English, German",

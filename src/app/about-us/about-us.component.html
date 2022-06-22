@@ -5,15 +5,15 @@
         <h1 class=""
         style="font-family: 'Montserrat', sans-serif;text-transform: uppercase;letter-spacing: 4px; font-size: 3.5rem; display: flex; justify-content: center; padding: 3%;">
         Get to know our Team</h1>
-        <p id="list">Gabriel Skraba &nbsp;| Tamara Zolnajic &nbsp;| Andrea Bicskei &nbsp;| Branko Babic</p>
-        
+    <p id="list">Gabriel Skraba &nbsp;| Tamara Zolnajic &nbsp;| Andrea Bicskei &nbsp;| Branko Babic</p>
+
     <div class="card" *ngFor="let person of people">
-        
+
         <div class=" imgBox ">
             <img src="{{person.img1}}">
             <img src="{{person.img2}}">
         </div>
-        
+
         <div class="details ">
             <div class="content ">
                 <h2>{{person.fname}}  {{person.lname}} &nbsp; {{person.byear}}'<br> <hr style="color:#AA771C; margin-top: 5%;"></h2>
@@ -31,9 +31,9 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
-   
+</div>
+
 
 
 
