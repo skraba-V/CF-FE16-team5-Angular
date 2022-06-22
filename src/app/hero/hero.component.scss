@@ -285,3 +285,39 @@ blockquote .fa {
     color: black;
     background-color: black;
 }
+
+@media (max-width: 778px) {  
+
+    .trry {
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        background-attachment: fixed;
+        clip-path: none;
+        background: #FBF5B7;
+        box-shadow: none;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .gadget {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 300px;
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 300px;
+    }
+
+}
