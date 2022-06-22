@@ -41,7 +41,7 @@ export class AboutUsComponent implements OnInit {
       xhobbies: "reading, music production, traveling" ,
       xlanguage:"Hungarian, Serbian, English, German",
       xquote: " It matters not when someone is born, but what they grow to be. ",
-      job: "Frontend Development,c++ ,Unreal engine, Video-Editing/Photoshop",
+      job: "Frontend Development,C++ ,Unreal engine, Video-Editing/Photoshop, Unity",
       img1: "/assets/images/about/andrea1.jpg",
       img2: "/assets/images/about/andrea.jpg",
      
