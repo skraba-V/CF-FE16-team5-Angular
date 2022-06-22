@@ -1,0 +1,23 @@
+.nav-decor {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  --navbar-scroll: transparent;
+  --navbar-scroll-text: white;
+  --navbar-scroll-shadow: none;
+}
+
+.navbar {
+  background-color: var(--navbar-scroll);
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  color: var(--navbar-scroll-text);
+  -webkit-box-shadow: var(--navbar-scroll-shadow);
+  box-shadow: var(--navbar-scroll-shadow);
+}
+/*# sourceMappingURL=navbar.component.css.map */

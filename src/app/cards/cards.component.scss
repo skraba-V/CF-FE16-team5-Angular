@@ -1,5 +1,4 @@
 .blk {
-    margin: 15%;
     position: relative;
     color: white;
     background-position: center;
@@ -51,6 +50,7 @@
 
 .mio:hover {
     background-color: rgba(0, 0, 0, 0.5);
+    transition:ease-in-out 1s;
 }
 
 .tree {

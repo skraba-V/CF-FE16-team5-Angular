@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=reviews.component.css.map */
+#reviews {
+  text-align: center;
+}
+
+.review-img {
+  width: 300px;
+  height: 300px;
+  margin: 5%;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 5%;
+}
+
+.clim {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+blockquote .fa {
+  color: red;
+  margin: 1rem;
+}
+
+.clients-hr {
+  border-top: 0.05rem solid #e61414;
+}
+
+.brdi {
+  border: solid 1px red;
+  padding: 0.2rem;
+  -webkit-box-shadow: 0px 0 5px gold inset;
+          box-shadow: 0px 0 5px gold inset;
+}
+
+.dstnc {
+  margin: 8rem 0;
+}
+
+.carousel-control-prev-icon {
+  color: black;
+  background-color: black;
+}
+/*# sourceMappingURL=reviews.component.css.map */

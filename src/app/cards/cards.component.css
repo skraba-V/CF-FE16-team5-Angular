@@ -1,0 +1,71 @@
+.blk {
+  position: relative;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif, italic;
+  width: 100%;
+  height: 70vh;
+  z-index: 70;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.clk1 {
+  background-image: url("../../assets/img/614E1EED-80B2-41DC-9B51-33D8C69C0A17_1_201_a.jpeg");
+}
+
+.clk1:hover {
+  background-image: url("../../assets/img/pexels-clive-kim-4220967.jpeg");
+}
+
+.clk2 {
+  background-image: url("../../assets/img/2C9FA429-C31F-4257-B32C-5A31CE80CFEE_1_201_a.jpeg");
+}
+
+.clk2:hover {
+  background-image: url("../../assets/img/pexels-lumn-604969.jpeg");
+}
+
+.clk3 {
+  background-image: url("../../assets/img/61BB5C8E-F9D2-4C7D-97E7-26FE7CB2585A_1_201_a.jpeg");
+}
+
+.clk3:hover {
+  background-image: url("../../assets/img/pexels-dominika-roseclay-1244700.jpeg");
+}
+
+.mio {
+  width: 100%;
+  height: 100%;
+}
+
+.mio:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.tree {
+  padding-top: 50%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tree:hover {
+  opacity: 1;
+}
+
+.bcck {
+  width: 7rem;
+  color: wheat;
+  margin-top: 2rem;
+  border: 3px solid #BF953F;
+  -webkit-box-shadow: 3px 9px 16px #B38728, -3px -3px 10px #B38728, inset 14px 14px 26px #B38728, inset -3px -3px 15px #B38728;
+          box-shadow: 3px 9px 16px #B38728, -3px -3px 10px #B38728, inset 14px 14px 26px #B38728, inset -3px -3px 15px #B38728;
+  border-radius: 40px;
+}
+/*# sourceMappingURL=cards.component.css.map */

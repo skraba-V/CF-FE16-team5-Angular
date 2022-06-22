@@ -1,4 +1,10 @@
-
+.page-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 11111;
+  top: 35px;
+}
 
 footer p,
 footer strong,
@@ -159,23 +165,23 @@ a.socials-item {
 }
 
 .facebook {
-  color: #4e64b5;
+  color: #FCF6BA;
 }
 
 .twitter {
-  color: #00aced;
+  color: #FCF6BA;
 }
 
 .instagram {
-  color: #9a8f62;
+  color: #FCF6BA;
 }
 
 .youtube {
-  color: #c82929;
+  color: #FCF6BA;
 }
 
 .telegram {
-  color: #2ca5e0;
+  color: #FCF6BA;
 }
 
 a.socials-item:hover {
@@ -261,7 +267,7 @@ footer p {
 .wpcf7-form-control-wrap input {
   background: #BF953F;
   overflow: hidden;
-  border: 1px solid #FCF6BA;
+  border: 1px solid black;
   background-color: #BF953F;
   -webkit-box-shadow: 10px 10px 36px #BF953F, -13px -13px 23px #B38728;
           box-shadow: 10px 10px 36px #BF953F, -13px -13px 23px #B38728;
@@ -294,7 +300,7 @@ footer p {
 .wpcf7-form-control-wrap textarea {
   background: #BF953F;
   overflow: hidden;
-  border: 1px solid #FCF6BA;
+  border: 1px solid black;
   background-color: #BF953F;
   -webkit-box-shadow: 10px 10px 36px #AA771C, -13px -13px 23px #AA771C;
           box-shadow: 10px 10px 36px #AA771C, -13px -13px 23px #AA771C;
@@ -322,7 +328,7 @@ textarea {
   cursor: pointer;
   padding: 15px 40px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   letter-spacing: 2px;
@@ -404,5 +410,19 @@ footer .widget ul {
 .footer-img {
   border-radius: 50%;
   background-position: center;
+}
+
+.footer-top {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 /*# sourceMappingURL=footer.component.css.map */
