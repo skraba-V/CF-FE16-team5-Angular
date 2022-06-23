@@ -10,19 +10,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 73%;
     min-height: 100vh;
     background: #FBF5B6;
 }
-#list{
+
+#list {
     text-decoration: none;
-    
     letter-spacing: 4px;
     font-family: 'Montserrat', sans-serif;
-    margin:2%;
+    margin: 2%;
     font-size: 1.5rem;
     padding-bottom: 3%;
 }
+
 // .banner {
 //     position: relative;
 //     width: 100%;
@@ -31,7 +32,6 @@
 //     background-size: cover;
 //     background-attachment: fixed;
 // }
-
 .card {
     // position: relative;
     width: 450px;
@@ -94,7 +94,6 @@
 .card .details .content {
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
 }
 
@@ -112,7 +111,6 @@
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    
 }
 
 .card .details .content .social-icons a {
@@ -127,26 +125,33 @@
     font-size: 18px;
     transition: 0.9s;
     margin-right: 8%;
-    
 }
 
 .card .details .content .social-icons a:hover {
     color: #AA771C
 }
-.gtkot{
-    font-family: 'Montserrat', sans-serif;text-transform: uppercase;letter-spacing: 4px; font-size: 3.5rem; display: flex; justify-content: center; padding: 3%
+
+.gtkot {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 3%
 }
+
 @media (max-width: 778px) {
-    #list{
+    #list {
         text-decoration: none;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
-        margin:2%;
+        margin: 2%;
         font-size: 0.6rem;
         font-weight: bold;
         padding-bottom: 3%;
     }
-    .gtkot{
+    .gtkot {
         margin-top: 10%;
         font-size: 1.4rem;
     }
@@ -179,11 +184,9 @@
         font-size: 11px;
         transition: 0.9s;
         margin-right: 8%;
-        
     }
-    #idp{
+    #idp {
         font-size: 0.6rem;
-        
     }
     hr {
         display: none;
