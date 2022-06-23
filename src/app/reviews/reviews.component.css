@@ -45,4 +45,15 @@ blockquote .fa {
   color: black;
   background-color: black;
 }
+
+@media (max-width: 778px) {
+  .clim {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 50px;
+  }
+}
 /*# sourceMappingURL=reviews.component.css.map */

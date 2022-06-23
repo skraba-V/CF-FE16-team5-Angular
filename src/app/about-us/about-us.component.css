@@ -1,11 +1,246 @@
-.banner {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(../../assets/images/about/team.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
+.about-cont {
+  padding-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: #FBF5B6;
+}
 
+#list {
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2%;
+  font-size: 1.5rem;
+  padding-bottom: 3%;
+}
+
+.card {
+  width: 450px;
+  height: 600px;
+  background: #fff;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  -webkit-box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-bottom: 10%;
+}
+
+.card:hover {
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.card .imgBox {
+  position: relative;
+  width: 100%;
+  height: 1000%;
+  z-index: 1;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background: #000;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .imgBox {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card .imgBox img:nth-child(2) {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .details .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .details .content h2 {
+  padding-bottom: 50px;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: center;
+}
+
+.card .details .content .social-icons {
+  padding-top: 15%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .details .content .social-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  color: #333;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  margin-right: 8%;
+}
+
+.card .details .content .social-icons a:hover {
+  color: #AA771C;
+}
+
+.gtkot {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3%;
+}
+
+@media (max-width: 778px) {
+  #list {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2%;
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding-bottom: 3%;
+  }
+  .gtkot {
+    margin-top: 10%;
+    font-size: 1.4rem;
+  }
+  .card {
+    width: 230px;
+    height: 350px;
+    background: #fff;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: perspective(1000px);
+            transform: perspective(1000px);
+    -webkit-box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+            box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin-top: 10%;
+  }
+  .card .details .content h2 {
+    padding-bottom: 50px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .card .details .content .social-icons a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    color: #333;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 11px;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+    margin-right: 8%;
+  }
+  #idp {
+    font-size: 0.6rem;
+  }
+  hr {
+    display: none;
+  }
+}
 /*# sourceMappingURL=about-us.component.css.map */

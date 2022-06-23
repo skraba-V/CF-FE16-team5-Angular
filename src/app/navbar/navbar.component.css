@@ -20,4 +20,12 @@ body {
   -webkit-box-shadow: var(--navbar-scroll-shadow);
   box-shadow: var(--navbar-scroll-shadow);
 }
+
+.dropdown-item {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=navbar.component.css.map */
